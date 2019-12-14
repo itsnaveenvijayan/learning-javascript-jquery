@@ -1,6 +1,5 @@
-<div id="app">
-  <h1>Welcome!</h1>    
-  <form id="loginform">
+<form id="loginform">
+    <h1>Sign In!</h1>   
     <label>Email</label>
     <br/>
     <input type="email" name="email"/>
@@ -9,11 +8,20 @@
     <br/>
     <input type="password" name="password"/>
     <br/><br/>
-    <input type="submit" value="login"/>
-    <br/><br/>
-    <label id="error"></label><label id="success"></label>
-  </form>
-  <p>
+    <input type="submit" value="Sign In"/>       
+</form>
+  <br/><br/> 
+<label id="message"></label>
+<br/><br/> 
+
+<form id="logoutform" style="display: none">
+  <input type="submit" value="Sign Out"/>
+  <h3>Loading list of users using jquery ajax and dom manipulation</h3>
+  <table id="users-table" cellspacing="10"></table>
+</form>
+
+<footer>
+    <p>
     <h2>Guide</h2>
     <ul>
       <li>Find Usernames <a href="https://reqres.in/api/users">here</a></li>
@@ -23,5 +31,4 @@
     </ul>
     <label></label>
   </p>
-  
-</div>
+  </footer>

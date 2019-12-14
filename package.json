@@ -2,5 +2,7 @@
   "name": "js-8nx9vs",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
